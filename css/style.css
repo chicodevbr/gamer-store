@@ -1,0 +1,35 @@
+.main-image__destaque {
+  width: 100%;
+}
+
+.display-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.nav-menu__ul li {
+  padding: 7px;
+}
+
+.display-principal__imagem {
+  width: 400px;
+  height: 250px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
