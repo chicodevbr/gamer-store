@@ -1,4 +1,4 @@
-html {
+body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -67,4 +67,11 @@ html {
 .footer {
   background: #533d86;
   color: #f5f5ec;
+}
+
+.display-flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
