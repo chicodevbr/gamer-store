@@ -86,6 +86,10 @@ main {
   font-weight: bold;
 }
 
+.submenu__ul li:nth-child(7) {
+  color: var(--purple);
+}
+
 .display-row {
   display: flex;
   flex-direction: row;
@@ -100,6 +104,34 @@ main {
 .display-secundario__imagem {
   width: 115px;
   height: 163px;
+}
+
+.menu-consoles {
+  margin: 20px;
+}
+
+.console-box {
+  width: 200px;
+  height: 40px;
+  padding-top: 15px;
+  text-align: center;
+  color: var(--secondary);
+}
+
+.menu-consoles__ul li:nth-child(1) {
+  background: var(--blue);
+}
+
+.menu-consoles__ul li:nth-child(2) {
+  background: var(--green);
+}
+
+.menu-consoles__ul li:nth-child(3) {
+  background: var(--red);
+}
+
+.menu-consoles__ul li:nth-child(4) {
+  background: var(--purple);
 }
 
 .container {
