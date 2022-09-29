@@ -1,40 +1,95 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #533d86;
+  --secondary: #f5f5ec;
+  --gray: #c4c4c4;
+  --beige: #e9e9e1;
+  --blue: #3c3a8c;
+  --green: #4d9f4c;
+  --lemon: #b6dc5c;
+  --red: #f41111;
+  --purple: #864798;
+  --background: #f5f5ec;
+}
+
+body,
+html {
+  width: 100%;
+}
+
 body {
   font-family: 'Josefin Sans', sans-serif;
+  background-color: var(--background);
+}
+
+main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  background: var(--primary);
+  height: 100px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+  color: var(--secondary);
+}
+
+.nav-menu a {
+  color: var(--secondary);
+}
+
+.nav-menu a:hover {
+  color: var(--gray);
+}
+
+.nav-menu a:active {
+  color: var(--gray);
+}
+
+.logo a {
+  font-size: 2rem;
+  color: var(--secondary);
 }
 
 .main-image__destaque {
   width: 100%;
 }
 
-.nav-menu {
-  background: #533d86;
-  height: 80px;
+.submenu {
+  height: 40px;
+  padding: 10px;
+  background: var(--beige);
+  border: 1px solid black;
+  margin-bottom: 40px;
 }
-.nav-menu__ul li {
-  padding: 7px;
-  color: #f5f5ec;
+
+.submenu__ul li {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .display-row {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.flex-end {
-  justify-content: flex-end;
-}
-
-.space-around {
-  justify-content: space-around;
-}
-
-.space-between {
-  justify-content: space-between;
-}
-
-.list-none {
-  list-style: none;
 }
 
 .display-principal__imagem {
@@ -65,8 +120,8 @@ body {
 }
 
 .footer {
-  background: #533d86;
-  color: #f5f5ec;
+  background: var(--primary);
+  color: var(--gray);
 }
 
 .display-flex-column {
@@ -74,4 +129,21 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.center {
+  width: 1200px;
+  margin: 0 auto;
 }
