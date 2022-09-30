@@ -10,6 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
       integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
       crossorigin="anonymous"
@@ -53,13 +59,38 @@
 
     <!-- Destaques -->
     <main>
-      <div class="destaque">
-        <img
-          class="main-image__destaque"
-          src="./img/destaque/destaque-game.jpg"
-          alt="Nintendo Game"
-        />
+      <div class="slider-container">
+        <div class="slide">
+          <img
+            class="main-image__destaque"
+            src="./img/destaque/destaque-game.jpg"
+            alt="Nintendo Game"
+          />
+        </div>
+        <div class="slide active">
+          <img
+            class="main-image__destaque"
+            src="./img/destaque/destaque-game.jpg"
+            alt="Nintendo Game"
+          />
+        </div>
+        <div class="slide">
+          <img
+            class="main-image__destaque"
+            src="./img/destaque/destaque-game.jpg"
+            alt="Nintendo Game"
+          />
+        </div>
+
+        <button class="arrow left-arrow" id="left">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+
+        <button class="arrow right-arrow" id="right">
+          <i class="fas fa-arrow-right"></i>
+        </button>
       </div>
+
       <div class="menu-consoles">
         <ul class="menu-consoles__ul list-none display-row space-around">
           <li>
