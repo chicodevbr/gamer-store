@@ -65,6 +65,11 @@ main {
   color: var(--gray);
 }
 
+.nav-menu i {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
 .logo a {
   font-size: 2rem;
   color: var(--secondary);
@@ -228,8 +233,10 @@ footer {
   justify-content: space-between;
 }
 
-.social-media-box p {
-  padding: 7px;
+.social-media-box a {
+  padding: 15px;
+  font-size: 1.5rem;
+  color: var(--secondary);
 }
 
 .container {
