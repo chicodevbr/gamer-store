@@ -120,7 +120,7 @@ main {
 .console-box {
   width: 200px;
   height: 40px;
-  padding-top: 15px;
+  padding-top: 10px;
   text-align: center;
   color: var(--secondary);
   cursor: pointer;
