@@ -75,6 +75,10 @@ main {
   color: var(--secondary);
 }
 
+.destaque {
+  width: 1200px;
+}
+
 .main-image__destaque {
   width: 100%;
 }
@@ -239,7 +243,7 @@ footer {
   color: var(--secondary);
 }
 
-.container {
+.container2 {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 0.33333fr; /* 0.333 = 1/3 */
