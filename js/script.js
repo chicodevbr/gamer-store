@@ -9,7 +9,18 @@ form.addEventListener('submit', (event) => {
   const isEmail = isValidatedEmail(email);
   const isPassword = passwordValidator(password);
 
-  console.log(isEmail, password, isPassword);
+  const textMessage =
+    '<span class="alert">o campo deve ser preenchido corretamente.</span>';
+
+  if (!isEmail || email === '') {
+    const elEmail = document.getElementById('emailBox');
+    elEmail.innerHTML += textMessage;
+  }
+
+  if (!isPassword || password === '') {
+    const elPassword = document.getElementById('passwordBox');
+    elPassword.innerHTML += textMessage;
+  }
 });
 
 const isValidatedEmail = (value) => {
