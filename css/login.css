@@ -52,11 +52,11 @@ body {
   text-align: center;
 }
 .box-login .itens label {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
-.box-login .itens input[type='text'],
+.box-login .itens input[type='email'],
 .box-login .itens input[type='password'] {
-  height: 40px;
+  height: 50px;
   border: 1px solid #f3f3f3;
   border-radius: 3px;
   padding: 0 15px;
@@ -73,6 +73,10 @@ body {
   margin-right: 10px;
 }
 
+.itens a {
+  margin-bottom: 15px;
+}
+
 .submit {
   height: 40px;
   background: var(--primary);
@@ -81,4 +85,10 @@ body {
   margin: 20px 0;
   border-radius: 3px;
   font-size: 1rem;
+}
+
+.alert {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--red);
 }
